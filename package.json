@@ -1,0 +1,63 @@
+{
+  "name": "craft-rex-selector",
+  "version": "0.2.3",
+  "description": "A customizable React selector component",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "selector",
+    "ui",
+    "dropdown",
+    "component"
+  ],
+  "author": "DigitalCraft",
+  "license": "DC",
+  "peerDependencies": {
+    "react": ">=16.8.0 || >=17.0.0 || >=18.0.0 || >=19.0.0",
+    "react-dom": ">=16.8.0 || >=17.0.0 || >=18.0.0 || >=19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/craft-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/craft-selector/issues"
+  },
+  "homepage": "https://github.com/your-username/craft-selector#readme"
+}
