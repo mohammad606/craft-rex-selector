@@ -43,8 +43,7 @@ interface SelectorProps {
 
 const RexSelector = (
     {
-        defaultValues,
-        value,
+
         labelColor = '#000',
         selectorColor = '#000',
         borderWidth = '2px',
@@ -55,12 +54,15 @@ const RexSelector = (
         optionsTextColor = '#000',
         selectedColor = '#a2e1e1',
         selectedColorArray = '#92e0f9',
-        search = false,
         searchColor = '#000',
         optionsSize = '50px',
         containerOptionsRadius = '5px',
         colorHovered = '#f0f0f0',
+
+        search = false,
         label = 'Select ...',
+        defaultValues,
+        value,
         apiFn,
         apiUrl,
         array,
